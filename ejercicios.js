@@ -1,11 +1,39 @@
-let resist1 = (-1)
-let resist2 =  (5)
-let resist3 = (6)
-let resist4 = (3)
+let sum = 0;  // Acumulador
 
-function sumResistance (resist1, resist2, resist3, resist4) {
-    const sumaTotalOhms = (resist1+resist2+resist3+resist4) 
-    console.log( "la suma de las resistencias es :" $(sumaTotalOhms));
-}
+    for (let index = 0; index < resistanceValues.length; index++) {
+        // Contenido
+        let resistance = resistanceValues[index];
+        if (resistance < 0) {
+            resistance = resistance * (-1);
+        }
 
- 
+        sum = sum + resistance;
+    }
+
+
+
+    // 2
+
+    const array = [];
+    const half = number / 2;
+    array.push(half); // array[0] = half
+    array.push(half); // array[1] = half
+
+    return array;
+
+ // let index = 10;
+    // index++;
+    // // index++ -> Operador de incremento
+    // index = index + 1;  // 11
+    // index--;
+    // // index-- -> Operador de decremento
+    // index = index - 1;  // 10
+
+    // index = index + 2;
+    // index += 2;
+    // index = index + 5;
+    // index += 5;
+    // index = index * 5;
+    // index *= 5
+    // index = index / 3;
+    // index /= 3;
